@@ -1,0 +1,68 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.ql-align-center {
+  text-align: center;
+}
+
+ol {
+  list-style-type: decimal;
+}
+
+.disclaimer {
+  ul {
+    @apply list-disc  
+  }
+}
+
+.editable-content p {
+  padding: 0 !important;
+}
+
+table.item-list {
+  tr {
+    td.default {
+      @apply whitespace-nowrap px-3 py-4 text-sm text-gray-500;
+    }
+  }
+}
+
+
+input[id^="react-select-"] {
+  opacity: 0 !important;
+}
+
+.common-consumer {
+  .head_caption, .head_caption p {
+    @apply max-[320px]:text-xs
+           text-sm text-center
+           lg:leading-tight lg:text-3xl
+           xl:text-4xl xl:leading-snug  
+           2xl:text-5xl 2xl:leading-snug  
+  }
+
+  .form_caption, .form_caption p {
+    @apply text-sm text-center lg:text-lg lg:leading-tight xl:text-xl
+  }
+
+  .form_sub_caption, .form_sub_caption p {
+    @apply lg:text-xl text-sm text-center lg:leading-tight
+  }
+}
+
+.loader {
+  border-top-color: #3498db;
+  -webkit-animation: spinner 1.5s linear infinite;
+  animation: spinner 1.5s linear infinite;
+}
+
+@-webkit-keyframes spinner {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spinner {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
