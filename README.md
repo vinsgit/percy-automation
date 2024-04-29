@@ -51,4 +51,4 @@ For more detailed instructions on how to use Percy Automation and its advanced f
 
 ## Contact
 
-For any inquiries or support requests, feel free to contact us at [vitamiumiu@gmail.com](mailto:vitamiumiu@gmail.com).
+For any inquiries or support requests, feel free to contact me at [vitamiumiu@gmail.com](mailto:vitamiumiu@gmail.com).
